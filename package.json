@@ -7,7 +7,7 @@
     "migrate:save": "prisma migrate save --experimental",
     "migrate:up": "prisma migrate up --experimental",
     "postinstall": "prisma generate",
-    "generate":"prisma generate",
+    "generate": "prisma generate",
     "dev": "next",
     "start": "next start",
     "build": "next build"
@@ -25,6 +25,9 @@
   "homepage": "https://github.com/SatoshiSobue/twitter_clone#readme",
   "dependencies": {
     "antd": "^4.7.3",
+    "bcrypt": "^5.0.0",
+    "cookie": "^0.4.1",
+    "jsonwebtoken": "^8.5.1",
     "next": "^9.5.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

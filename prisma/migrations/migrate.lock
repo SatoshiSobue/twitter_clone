@@ -1,3 +1,4 @@
 # Prisma Migrate lockfile v1
 
 20201029150051-create-tweet-model
+20201031062242-add-tweet-and-user
