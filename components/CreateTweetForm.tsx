@@ -16,6 +16,7 @@ export const CreateTweetForm = () => {
 
         // we include "false" here to ask SWR not to revalidate the cache with
         // the feed returned from the server. we'll remove this after the next section
+        console.log(feed)
         mutate(
           "/api/feed",
           [{ text: input, author: { username: "Marshall Mathers" } }, ...feed],
